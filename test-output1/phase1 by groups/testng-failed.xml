@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [phase1 by groups]">
+  <test name="GRP-Sorel(failed)">
+    <groups>
+      <run>
+        <include name="Sorel"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.columbia.Testnggroups">
+        <methods>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- com.columbia.Testnggroups -->
+    </classes>
+  </test> <!-- GRP-Sorel(failed) -->
+</suite> <!-- Failed suite [phase1 by groups] -->
